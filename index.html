@@ -3,19 +3,19 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="form.js"></script>
         <title>birthday app</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
             <body>
                 <h1>Welcome to my Birthday App</h1>
                     <p>Most people, like you, do know when their birthdays are, but some might not know what day of the week they were born. This application takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.</p>
     
-                        <form id ="form1" action="">
+                        <form id="form1">
                             <fieldset data-role="controlgroup">
                             <legend>Enter your birthday:</legend>
                                 <label for="birthday">Birthday:</label>
-                                <input type="date" id="birthday" name="birthday">
+                                <input type="date" id="birthday" name="birthday" required>
                             </fieldset>
                             <fieldset data-role="controlgroup">
                             <legend>Choose your gender:</legend>
@@ -24,8 +24,14 @@
                                 <label for="female">Female</label>
                                 <input type="radio" name="gender" id="female" value="female">
                             </fieldset>
-                            <input type="submit" value="submit" />
                         </form>
+                        <legend>Click submit button below to check your akan name:<legend>
+                        <button class="button" onclick="myFunc()">Submit</button> 
+                    <p id ="response">
             </body>
-    </head>
+    
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/form.js"></script>
 </html>
