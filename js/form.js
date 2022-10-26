@@ -10,9 +10,9 @@ function myFunc() {
     var YY = parseInt(year.slice(2,4));
     var CC = parseInt(year.slice(0,2));
     
-    /**
-     * Formula to get the day of the week
-     */
+    
+    // Formula to get the day of the week. Sunday being the first day.
+     
     var day=(((CC/4)-1*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7
 
     day=Math.floor(day)
