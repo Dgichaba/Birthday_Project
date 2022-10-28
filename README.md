@@ -9,11 +9,11 @@ Most people know when their birthdays are, but some might not know what day of t
 ## Technologies Used
 * HTML
 * CSS
-*Javascript
+* Javascript
 ## Support and contact details
-If you run into any issue or have questions, ideas or concerns, kindly reach me though the contacts provided or feel free to make a contibution to the code.
+If you run into any issue or have questions, ideas or concerns, kindly reach me through the contacts provided or feel free to make a contibution to the code.
 ## Setup Instructions
-Clone the repository. Navigate to the folder and double click the index.html file to open it in a browser then you can explore the portfolio sections.
+Clone the repository. Navigate to the folder and double click the index.html file to open it in a browser then you can explore the other sections.
 
 ## List of contributors 
 Dorothy Gichaba
