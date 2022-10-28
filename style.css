@@ -64,11 +64,11 @@ nav ul li a{
     text-decoration: none;
     text-align: right;
     text-transform: uppercase;
-    color: whitesmoke;
+    color: whitesmoke
 
 }
 .active, a:hover{
-    background: rgb(115, 113, 113);
+    background: rgb(234, 223, 208);
     transition: .5s;
 }
 .content h1{ 
@@ -91,8 +91,6 @@ nav ul li a{
     color: white;
 }
 .content p{
-    font-size: 20px;
-    font-weight: 50;
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: left;
@@ -100,8 +98,6 @@ nav ul li a{
     width: fit-content;     
 }
 .content ol{
-    font-size: 20px;
-    font-weight: 50;
     margin-top: 50px;
     margin-bottom: 20px;
     align-content: center;
@@ -110,8 +106,6 @@ nav ul li a{
     color: white
 }
 .content ul{
-    font-size: 20px;
-    font-weight: 50;
     margin-top: 50px;
     margin-bottom: 20px;
     align-content: center;
