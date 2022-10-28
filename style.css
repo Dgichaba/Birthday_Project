@@ -1,8 +1,23 @@
-*{
+/*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    background-color:rgb(198, 211, 211)
+}*/
+.container{
+    /* height:100vh; */
+    width: 100%;
+    background-image:url(images/background.jpg); 
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 4000px rgba(152, 142, 142, 0.5) inset;
+    position: absolute;
+    min-height: 100%;
+    color: white;
 }
 html{
     scroll-behavior: smooth;
@@ -17,4 +32,93 @@ align-content:center
     background: rgb(173, 166, 166);
     font-size: large;
     transition: .5s;
+}
+#error{
+    color: red;
+}
+#response{
+    color: green;
+    font-weight: bolder;
+}
+.navbar{
+    width:100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    color: rgb(45, 51, 51);
+}
+.logo {
+    width:10%;
+    height: 80%;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align:center;
+    color: whitesmoke;
+    align-content:center
+}
+.active, a:hover{
+    background: rgb(115, 113, 113);
+    transition: .5s;
+}
+.content h1{ 
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align:left;
+    color: white;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: 50;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: white;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 50;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: white;
+    width: fit-content;     
+}
+.content ol{
+    font-size: 20px;
+    font-weight: 50;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    align-content: center;
+    text-align: left;
+    list-style-position: inside;
+    color: white
+}
+.content ul{
+    font-size: 20px;
+    font-weight: 50;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    align-content: center;
+    text-align: left;
+    list-style-position: inside;
+    color: white
+}
+.content a{
+    text-align: left;
+    
+}
+.important{
+    color: blue;
 }
