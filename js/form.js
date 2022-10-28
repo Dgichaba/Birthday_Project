@@ -18,16 +18,10 @@ function myFunc() {
     var YY = parseInt(year.slice(2,4));
     var CC = parseInt(year.slice(0,2));
 
-    //alert("DD- "+DD+" MM- "+MM+" YY- "+YY+" CC- "+CC)
-    
-    
     // Method to get the day of the week. 
-     
     var day=(((CC/4)-2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7
-
     day=Math.floor(day)
-    //alert(day);
-
+    
     if(gender==="male"){
         const name = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
         document.getElementById("response").innerHTML="Your akan name is: " + name[day];
