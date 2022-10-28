@@ -1,12 +1,5 @@
-/*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    background-color:rgb(198, 211, 211)
-}*/
+
 .cont{
-    /* height:100vh; */
     width: 100%;
     background-image:url(images/bg-image.jpg); 
     background-position: center;
@@ -89,6 +82,9 @@ nav ul li a{
     margin-bottom: 20px;
     text-align: center;
     color: white;
+}
+.content h3{
+    text-align: left;
 }
 .content p{
     margin-top: 50px;
