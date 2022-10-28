@@ -1,7 +1,7 @@
 # Birthday_Project
 #### Authored By : **Dorothy Gichaba**
 ## Description
-This repository contains a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.  my personal portfolio which was created with the help of my instructor Mark.
+Most people know when their birthdays are, but some might not know what day of the week they were born. This application will help us calculate the day of the week a person was born from a specific date that will be given and then output their Akan Name depending on their gender
 ## Setup/Installation Requirements
 * Visual Studio Code
 * Git
